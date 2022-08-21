@@ -1,0 +1,118 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Hi there", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+        "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+        "tag": "caring",
+        "patterns": ["How are you doing?","How are you?"],
+        "responses": ["I m fine! Thanks for asking", "I m doing good! How can I help you?"]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+        "tag": "noanswer",
+        "patterns": [""],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {
+        "tag": "options",
+        "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+        "responses": ["I am a COVID-19 Bot to help you", "I can give you suggestions related to COVID-19 Symptomps"]
+    },
+    {
+        "tag": "ask",
+        "patterns": ["I am not feeling well","I guess I am suffering from COVID","How can you tell I am suffering from COVID"],
+        "responses": ["Please tell about your symptomps and I will tell you how much severe they are","Tell me your symptomps and I will tell you how much severe they are"]
+    },
+    {
+        "tag": "common",
+        "patterns": ["fever","cough","tiredness","loss of taste","loss of smell","feel dizzy","high body temperature","cant taste anything","cant smell anything"],
+        "responses": ["You might be suffering from COVID but this are the common symptomps. You should manage your symptomps at home and remember to weark mask and use sanitizer.\nYou can also seek for some food suggestion"]
+    },
+    {
+        "tag": "lesscommon",
+        "patterns": ["sore throat","loss of smell","loss of taste","cant smell anything","cant taste anything","headache","aches and pain","diarrhoea","a rash on skin","discoloration of fingers or toes","red irritated eyes"],
+        "responses": ["You might be suffering from COVID but this are the less common symptomps. People with mild symptoms who are otherwise healthy should manage their symptoms at home.\nYou can also seek for some food suggestion"]
+    },
+    {
+        "tag": "serious",
+        "patterns": ["difficulty breathing","shortness of breath","loss of speech","loss of mobility","loss of confusion","chest pain"],
+        "responses": ["Seek immediate medical attention if you have serious symptoms. Always call before visiting your doctor or health facility.\nYou can also seek for some food suggestion"]
+    },
+    {
+        "tag": "foodsuggestion1",
+        "patterns": ["food suggestion","food suggestion COVID symptomps","what should I eat if I am COVID positive"],
+        "responses": ["Consume enough fibre like vegetables, fruits, pulses and wholegrain food in all meals", "Stay hydated to keep your health optimal"]
+    },
+    {
+        "tag": "foodsuggestion2",
+        "patterns": ["What kind of food should I neglect?","What should i dont eat?","What kind of food items should I avoid for better health?"],
+        "responses": ["1. Limit your salt intake\n2. Limit sugar intake\n3. Limit your fat intake\n4. Avoid alcohol as much as you can"]
+    },
+    {
+        "tag": "foodprecautions",
+        "patterns": ["What kind of measures should I take to avoid COVID","What should i dont eat?","What kind of food items should I avoid for better health?"],
+        "responses": ["1. Limit your salt intake\n2. Limit sugar intake\n3. Limit your fat intake\n4. Avoid alcohol as much as you can"]
+    },
+    {
+        "tag": "precuations",
+        "patterns": ["What precautions should I take to avoid COVID?","Precautions","How to avoid COVID?","How prevent from being COVID positive?"],
+        "responses": ["You should use fresh ingredients for cooking food","Always wear mask while going outside and keep your hands sanitize before eating anything","Avoid the crowded places as there is more chances of being exposed to covid"]
+    },
+    {
+        "tag": "What is COVID-19?",
+        "patterns": ["What is covid 19","What do you mean by covid or corona virus?"],
+        "responses": ["COVID-19 is the infectious disease caused by the most recently discovered coronavirus. This new virus and disease were unknown before the outbreak began in Wuhan, China, in December 2019."]
+    },
+    {
+        "tag": "What are the symptoms of COVID 19?",
+        "patterns": ["symptoms of covid 19", "symptoms of coronavirus", "covid 19 symptoms", "coronavirus symptoms"],
+        "responses": ["The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but donâ€™t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."]
+    },
+    {
+        "tag": "How does COVID 19 spread?",
+        "patterns": ["How does COVID 19 spread", "How does coronavirus spread"],
+        "responses": ["People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.WHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share updated findings."]
+    },   
+    {
+        "tag": "What can I do to protect myself and prevent the spread of disease?",
+        "patterns": ["What can I do to protect myself and prevent the spread of disease", "Protection measures for everyone", "prevent the spread of disease"],
+        "responses": ["Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news.You can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.Why? Washing your hands with soap and water or using alcohol-based hand rub kills viruses that may be on your hands.Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.Why? When someone coughs or sneezes they spray small liquid droplets from their nose or mouth which may contain virus. If you are too close, you can breathe in the droplets, including the COVID-19 virus if the person coughing has the disease.Avoid touching eyes, nose and mouth.Why? Hands touch many surfaces and can pick up viruses. Once contaminated, hands can transfer the virus to your eyes, nose or mouth. From there, the virus can enter your body and can make you sick.Make sure you, and the people around you, follow good respiratory hygiene. This means covering your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.Why? Droplets spread virus. By following good respiratory hygiene you protect the people around you from viruses such as cold, flu and COVID 19.Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority.Why? National and local authorities will have the most up to date information on the situation in your area. Calling in advance will allow your health care provider to quickly direct you to the right health facility. This will also protect you and help prevent spread of viruses and other infections.Keep up to date on the latest COVID-19 hotspots (cities or local areas where COVID-19 is spreading widely). If possible, avoid traveling to places  â€“ especially if you are an older person or have diabetes, heart or lung disease.Why? You have a higher chance of catching COVID 19 in one of these areas"]
+    },
+    {
+        "tag": "How likely am I to catch COVID-19?",
+        "patterns": ["How likely am I to catch COVID 19", "How likely am I to catch coronavirus", "effected by coronavirus"],
+        "responses": ["The risk depends on where you  are - and more specifically, whether there is a COVID-19 outbreak unfolding there.For most people in most locations the risk of catching COVID-19 is still low. However, there are now places around the world (cities or areas) where the disease is spreading. For people living in, or visiting, these areas the risk of catching COVID-19 is higher. Governments and health authorities are taking vigorous action every time a new case of COVID-19 is identified. Be sure to comply with any local restrictions on travel, movement or large gatherings. Cooperating with disease control efforts will reduce your risk of catching or spreading COVID-19.COVID-19 outbreaks can be contained and transmission stopped, as has been shown in China and some other countries. Unfortunately, new outbreaks can emerge rapidly. Itâ€™s important to be aware of the situation where you are or intend to go. WHO publishes daily updates on the COVID-19 situation worldwide."]
+    },
+    {
+        "tag": "Should I worry about COVID-19",
+        "patterns": ["Should I worry about COVID 19", "Should I worry about coronavirus"],
+        "responses": ["Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones.We can channel our concerns into actions to protect ourselves, our loved ones and our communities. First and foremost among these actions is regular and thorough hand-washing and good respiratory hygiene. Secondly, keep informed and follow the advice of the local health authorities including any restrictions put in place on travel, movement and gatherings.,"]
+    },
+    {
+        "tag": "Are antibiotics effective in preventing or treating the COVID-19",
+        "patterns": ["antibiotics effective in preventing treating the COVID 19", "antibiotics effective in preventing treating the coronavirus", "antibiotic effective in coronavirus"],
+        "responses": ["No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection. "]
+    },
+    {
+        "tag": "Are there any medicines or therapies that can prevent or cure COVID-19",
+        "patterns": ["Are there any medicines or therapies that can prevent or cure COVID 19", "Are there any medicines or therapies that can prevent or cure coronavirus"],
+        "responses": ["While some western, traditional or home remedies may provide comfort and alleviate symptoms of COVID-19, there is no evidence that current medicine can prevent or cure the disease. WHO does not recommend self-medication with any medicines, including antibiotics, as a prevention or cure for COVID-19. However, there are several ongoing clinical trials that include both western and traditional medicines. WHO will continue to provide updated information as soon as clinical findings are available."]
+    },
+    {
+        "tag": "Is there a vaccine, drug or treatment for COVID-19",
+        "patterns": ["Is there a vaccine, drug or treatment for COVID 19", "Is there a vaccine, drug or treatment for coronavirus"],
+        "responses": ["Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care.Possible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19.The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue, and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing"]
+    }
+]
+}
